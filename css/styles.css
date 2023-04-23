@@ -1,3 +1,19 @@
+html {
+  box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+
 :root {
   /* fonts */
   --primary-font: "Roboto", sans-serif;
@@ -57,6 +73,9 @@
 
 .header {
   background-color: #ffffff;
+  padding: ;
+  margin: ;
+  border: ;
 }
 .header-nav-link {
   
@@ -169,7 +188,7 @@
   color: var(--color-txt);
 }
 .three-section-list {
-  background-color: #ffffff;
+  
 }
 .three-section-item {
   background-color: #ffffff;
