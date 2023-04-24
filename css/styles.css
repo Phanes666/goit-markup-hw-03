@@ -86,7 +86,7 @@ img {
   background-color: #ffffff;
   border-bottom: 1px solid #E7E9FC;
   align-items: center;
-padding: 24px 0;
+
 }
 .header-nav-link {
   display: block;
@@ -124,8 +124,7 @@ padding: 24px 0;
 }
 .header-nav-item {
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 24px;
+ padding: 24px;
 }
 
 .header-nav-list {
