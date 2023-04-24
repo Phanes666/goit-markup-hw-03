@@ -86,6 +86,7 @@ img {
   background-color: #ffffff;
   border-bottom: 1px solid #E7E9FC;
   align-items: center;
+  padding: 0px 15px;
 }
 .header-nav-link {
   display: block;
@@ -119,7 +120,7 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
-  padding: 15px 0px;
+
 }
 .header-nav-item {
   font-style: normal;
