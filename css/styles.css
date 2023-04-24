@@ -270,6 +270,13 @@ padding: 0 15px;
 
 
 /* section Two What are we doing */
+.awd-container {
+  align-items: center;
+padding: 0 15px; 
+}
+
+
+
 .two-section {
   padding-bottom: 120px;
 }
@@ -293,6 +300,11 @@ padding: 0 15px;
   flex-basis: calc((100% - 48px) / 3)
 }
 /* section Three Our Team */
+.ot-container {
+  align-items: center;
+  padding: 0 15px; 
+
+}
 
 .three-section {
   background-color: #f4f4fd;
@@ -319,7 +331,7 @@ padding: 0 15px;
   background-color: #ffffff;
 
 
-  padding: 32px 16px;
+  flex-basis: calc((100% - 3 * 24px)/4);
   box-shadow: 0px 1px 6px  rgba(46, 47, 66, 0.08),
  0px 1px 1px rgba(46, 47, 66, 0.16), 
 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -348,8 +360,8 @@ padding: 0 15px;
 }
 
 .pro-container {
-
-flex-basis: calc((100% - 3 * 24px)/4);
+  padding: 32px 16px;
+margin-bottom: 8px;
 }
 
 
