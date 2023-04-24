@@ -386,7 +386,7 @@ margin-bottom: 8px;
   text-transform: uppercase;
 
   color: var(--logo-text-color);
-
+display: inline-block;
   margin-bottom: 16px;
 }
 .footer-logo-studio {
@@ -404,10 +404,10 @@ margin-bottom: 8px;
   display: flex;
 }
 .foot-container {
-display: inline-block;
+
 align-items: center;
   padding: 0 15px; 
-  margin-bottom: 16px;
+
 }
 
 
