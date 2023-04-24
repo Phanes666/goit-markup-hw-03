@@ -165,16 +165,20 @@ align-items: center;
 
 /* Section Hero */
 .hero-container {
-  display: flex;
+  display: inline-block;
   align-items: center;
   padding: 0 15px;
+margin: 0 auto;
 
 }
 
 .hero {
   background-color: #2e2f42;
-
+align-items: center;
   padding: 188px 0;
+
+  display: flex;
+  margin: 0 auto;
 }
 .hero-title {
   font-style: normal;
@@ -188,6 +192,10 @@ align-items: center;
   color: #ffffff;
 
   max-width: 496px;
+ margin: 0 auto;
+ padding: 0 auto;
+margin-bottom: 48px;
+
 }
 
 .hero-button {
@@ -213,12 +221,18 @@ align-items: center;
   flex-direction: row;
   align-items: center;
   padding: 16px 32px;
-  margin: 48px 0;
+  margin: 0 auto;
 border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
 /* section One Feature */
+.features {
+
+align-items: center;
+padding: 120px 0; 
+}
+
 
 .one-section-content-title {
   font-family: "Roboto";
@@ -228,6 +242,8 @@ border-radius: 4px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-txt);
+  
+  margin-bottom: 8px;
 }
 .one-section-text {
   font-style: normal;
@@ -238,7 +254,17 @@ border-radius: 4px;
 }
 .one-section-list {
   background-color: #ffffff;
+  display: flex;
+  gap: 24px;
 }
+
+
+
+
+
+
+
+
 /* section Two What are we doing */
 .two-section {
 }
