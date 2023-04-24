@@ -263,12 +263,6 @@ padding: 0 15px;
   flex-basis: calc((100% - 72px) / 4); 
 }
 
-
-
-
-
-
-
 /* section Two What are we doing */
 .awd-container {
   align-items: center;
@@ -363,10 +357,6 @@ padding: 0 15px;
   padding: 32px 16px;
 margin-bottom: 8px;
 }
-
-
-
-
 
 
 /* FOOTER */
@@ -475,5 +465,13 @@ padding: 0 auto;
 outline: 2px solid red;
 outline-offset: -2px;
 }
+
+
+
+
+
+
+
+
 
 
