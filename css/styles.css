@@ -125,7 +125,7 @@ img {
 .header-nav-item {
   font-style: normal;
   padding-top: 24px;
-  padding-bottom: 0;
+  padding-bottom: 24px;
 }
 
 .header-nav-list {
