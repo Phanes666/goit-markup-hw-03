@@ -258,9 +258,7 @@ padding: 0 15px;
   background-color: #ffffff;
   display: flex;
   gap: 24px;
-  
-
-}
+  }
 .one-section-item {
   flex-basis: calc((100% - 72px) / 4); 
 }
