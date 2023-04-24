@@ -119,6 +119,7 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
+  padding: 15px 0px;
 }
 .header-nav-item {
   font-style: normal;
@@ -130,6 +131,7 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0px;
   
 }
 .header-address-link {
