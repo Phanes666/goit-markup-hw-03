@@ -230,9 +230,11 @@ border-radius: 4px;
 .features {
 
 align-items: center;
-padding: 0 auto; 
+padding: 0 15px; 
 }
-
+.feature-section {
+  padding: 120px 0;
+}
 
 .one-section-content-title {
   font-family: "Roboto";
@@ -256,11 +258,11 @@ padding: 0 auto;
   background-color: #ffffff;
   display: flex;
   gap: 24px;
-  padding: 120px 15px;
+  
 
 }
 .one-section-item {
-  width: calc((100% - 72px) / 4); 
+  flex-basis: calc((100% - 72px) / 4); 
 }
 
 
