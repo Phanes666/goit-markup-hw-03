@@ -357,7 +357,7 @@ border-radius: 4px;
 .container {
   width: 1158px;
 margin: 0 auto;
-padding: 0 15px;
+padding: 0 auto;
 
 outline: 2px solid red;
 outline-offset: -2px;
@@ -366,5 +366,5 @@ outline-offset: -2px;
 .header-container {
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 24px;
 }
