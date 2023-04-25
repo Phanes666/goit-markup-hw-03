@@ -25,7 +25,9 @@ html {
   --color-txt: #2e2f42;
   --color-txt-body: #434455;
   --color-back: #ffffff;
-  /* other */
+  /* others */
+  --indent: 24px;
+  --items: 9;
 }
 
 .body {
@@ -434,6 +436,10 @@ align-items: center;
   background-color: #404bbf;
 }
 
+
+
+
+/* Cads */
 .card-title-name {
   font-family: "Roboto";
   font-style: normal;
@@ -452,6 +458,21 @@ align-items: center;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+}
+
+.cards {
+  display: flex;
+flex-wrap: wrap;
+gap: var(--indent);  
+
+justify-content: center;
+
+}
+.card-set {
+
+}
+.card-set-item {
+
 }
 
 /* styles bloks */
