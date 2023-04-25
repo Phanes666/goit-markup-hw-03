@@ -406,8 +406,11 @@ align-items: center;
 
 
 /* portfolio */
+.portfolio {
+  padding: 96px 0 120px;
+}
+/* button-port */
 
-/*  */
 .filter-button {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
@@ -421,20 +424,28 @@ align-items: center;
   cursor: pointer;
   background-color: var(--button-backgroud);
   color: var(--logo-text-color);
+
+padding: 12px 24px;
+border: 1px solid  #e7e9fc;
+border-radius: 4px;
 }
 
 .filter-list {
   display: flex;
   align-items: center;
   margin: 0 auto;
+  justify-content: center;
+gap: 24px;
+margin-bottom: 72px;
 }
+
 .filter-item {
 
 }
 .filter-container {
  
   padding: 0 15px;
-  gap: 24px;
+
 }
 
 
@@ -442,6 +453,7 @@ align-items: center;
 .filter-button:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 .btn {
   background-color: #4d5ae5;
@@ -485,7 +497,10 @@ justify-content: center;
 
 }
 .card-set {
-
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
 }
 .card-set-item {
 
