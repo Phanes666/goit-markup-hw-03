@@ -403,9 +403,9 @@ display: inline-block;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 
-  display: flex;
   width: 264px;
-  
+  margin: 0 auto;
+  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }
 .foot-container {
 
@@ -487,6 +487,7 @@ margin-bottom: 72px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-txt);
+  margin: 0 auto;
 margin-bottom: 8px;
 
 }
@@ -498,6 +499,7 @@ margin-bottom: 8px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  margin: 0 auto;
 }
 
 .cards {
