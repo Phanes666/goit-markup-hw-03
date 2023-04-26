@@ -233,6 +233,7 @@ border-radius: 4px;
 
 align-items: center;
 padding: 0 15px; 
+
 }
 .feature-section {
   padding: 120px 0;
@@ -246,7 +247,7 @@ padding: 0 15px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-txt);
-  
+  margin: 0 auto;
   margin-bottom: 8px;
 }
 .one-section-text {
@@ -255,6 +256,7 @@ padding: 0 15px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0 auto;
 }
 .one-section-list {
   background-color: #ffffff;
@@ -262,6 +264,7 @@ padding: 0 15px;
   gap: 24px;
   }
 .one-section-item {
+
   flex-basis: calc((100% - 72px) / 4); 
 }
 
@@ -269,6 +272,7 @@ padding: 0 15px;
 .awd-container {
   align-items: center;
 padding: 0 15px; 
+margin: 0 auto;
 }
 
 
@@ -286,6 +290,7 @@ padding: 0 15px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-txt);
+  margin: 0 auto;
   margin-bottom: 72px;
 }
 .two-section-list {
@@ -316,6 +321,7 @@ padding: 0 15px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-txt);
+  margin: 0 auto;
   margin-bottom: 72px;
 }
 .three-section-list {
@@ -344,6 +350,7 @@ padding: 0 15px;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-txt);
+  margin: 0 auto;
   margin-bottom: 8px;
 }
 .three-section-pro {
@@ -353,6 +360,7 @@ padding: 0 15px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  margin: 0 auto;
 }
 
 .pro-container {
@@ -380,6 +388,7 @@ margin-bottom: 8px;
 
   color: var(--logo-text-color);
 display: inline-block;
+
   margin-bottom: 16px;
 }
 .footer-logo-studio {
@@ -396,12 +405,13 @@ display: inline-block;
 
   display: flex;
   width: 264px;
+  
 }
 .foot-container {
 
 align-items: center;
   padding: 0 15px; 
-
+margin: 0 auto;
 }
 
 
@@ -525,8 +535,7 @@ row-gap: 48px;
 margin: 0 auto;
 padding: 0 auto;
 
-outline: 2px solid red;
-outline-offset: -2px;
+
 }
 
 
