@@ -3,11 +3,7 @@ html {
 
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+
 
 
 
@@ -167,8 +163,7 @@ align-items: center;
 
 /* Section Hero */
 .hero-container {
-  display: inline-block;
-  align-items: center;
+
   padding: 0 15px;
 margin: 0 auto;
 
@@ -176,10 +171,10 @@ margin: 0 auto;
 
 .hero {
   background-color: #2e2f42;
-align-items: center;
+
   padding: 188px 0;
 
-  display: flex;
+ 
   margin: 0 auto;
 }
 .hero-title {
@@ -365,7 +360,7 @@ margin: 0 auto;
 
 .pro-container {
   padding: 32px 16px;
-margin-bottom: 8px;
+
 }
 
 
@@ -373,9 +368,7 @@ margin-bottom: 8px;
 .footer {
   background-color: var(--color-txt);
   padding: 100px 0;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
+
  
 }
 .footer-logo {
@@ -485,7 +478,7 @@ margin-bottom: 72px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.02em;
   color: var(--color-txt);
   margin: 0 auto;
@@ -498,9 +491,9 @@ margin-bottom: 8px;
 
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.02em;
-  margin: 0 auto;
+ 
 }
 
 .cards {
@@ -536,7 +529,7 @@ row-gap: 48px;
 .container {
   width: 1158px;
 margin: 0 auto;
-padding: 0 auto;
+padding: 0 15px;
 
 
 }
